@@ -1,17 +1,6 @@
-// class Greeter {
-//     greeting: string;
 
-//     constructor(message: string) {
-//         this.greeting = message;
-//     }
-//     greet() {
-//         return "Hello, " + this.greeting;
-//     }
-// }
 
-// let truong = new Greeter("Trường")
-
-class Animal {
+export class Animal {
     name: string;
     constructor(name: string) {
         this.name = name
@@ -36,4 +25,3 @@ const dog = new Dog("Hoàng", 18);
 dog.bark();
 dog.move(10);
 dog.bark();
-console.log(dog)
