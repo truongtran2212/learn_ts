@@ -1,10 +1,6 @@
-interface Person<A, B> {
-    name: A
-    age: B
-    getFullName(): A;
-}
+import { Person } from "./interface"
 
-var student: Person<string, number> = {
+const student: Person<string, number> = {
     age: 16,
     name: "Trường",
     getFullName()  {
@@ -12,15 +8,5 @@ var student: Person<string, number> = {
     },
 }
 
-console.log(student.getFullName());
+console.log(student);
 
-
-function sum(a: number, b: number) {
-    return a + b;
-}
-
-let tuple: [string,number]
-tuple = ["1", 23]
-tuple.push(24)
-
-console.log(tuple);

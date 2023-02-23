@@ -18,5 +18,7 @@ function getPromise() {
         console.error(err);
     }
   }
-  
+
   data();
+
+// let c = 10;
