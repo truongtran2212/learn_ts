@@ -2,7 +2,8 @@
 
 import { Animal } from "./Greeter";
 
-var newName:string = 'Trường';
+type StringOrNumber = string | number | boolean;
+var newName:StringOrNumber = true;
 console.log(newName);
 
 let cat = new Animal("Gold")
